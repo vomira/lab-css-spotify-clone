@@ -29,11 +29,22 @@ nav {
     position: fixed;
     background-color: #FFF;
     padding: 5px;
-    width: 100vw;
+    width: 100%;
 }
 
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    }
+
 nav > img {
-    height: 3vh
+    height: 10vh
 }
 
 .landing-container {
