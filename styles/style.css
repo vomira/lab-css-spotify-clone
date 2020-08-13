@@ -1,3 +1,119 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+h1 {
+    color: #FFF;
+}
+
+h3 {
+    color: #00B172;
+    font-weight: bold;
+}
+
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #FFF;
+    padding: 5px;
+    width: 100vw;
+}
+
+nav > img {
+    height: 3vh
+}
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/landing.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+
+}
+
+.landing-container > p {
+    color: #FFF;
+}
+
+.pitch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline
+
+}
+
+.pitch-container p {
+    color: 1A1A1A;
+    font-weight: lighter;
+}
+
+.pitch-container > h2 {
+    padding: 30px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    margin: 60px;
+}
+
+.icons-container img {
+    width: 50%
+}
+
+.example-container {
+    background-color:#00B172;
+    display: flex;
+    flex-direction: row;
+}
+
+.example-container > img {
+    position: relative;
+    height: 20vh;
+}
+
+.example-container > div {
+    margin: 80px;
+    width: 30%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 /*
 Colors:
 
@@ -6,3 +122,4 @@ Green: #00B172
 White: #FFF
 
 */
+
